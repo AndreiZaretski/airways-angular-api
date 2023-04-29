@@ -1,0 +1,14 @@
+{
+  "name": "airways-angular-api",
+  "version": "1.0.0",
+  "description": "Fun with promises",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+    
+  },
+  "devDependencies": {
+    "json-server": "^0.17.3",
+    "json-server-auth": "^2.1.0"
+  }
+}
