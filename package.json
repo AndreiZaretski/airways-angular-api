@@ -5,10 +5,12 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
-    
   },
   "devDependencies": {
     "json-server": "^0.17.3",
     "json-server-auth": "^2.1.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2"
   }
 }
