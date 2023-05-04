@@ -67,7 +67,7 @@ app.post('/getairs', (req, res)=>{
 
  
 
- const thereWay = {startTime, timeWay, flightNumber, price, avalaible, getDay};
+ const thereWay = {startTime, timeWay, flightNumber, price, available, getDay};
 
  const backWay = {startTimeBack, timeWayBack, flightNumberBack, priceBack, availableBack, getDayBack};
 
