@@ -31,8 +31,8 @@ app.post('/getairs', (req, res)=>{
  const arrDate = mockData.days[helpers.getRandomElementArray(mockData.days)];
  const arrDateBack = mockData.days[helpers.getRandomElementArray(mockData.days)];
 
- const avaible = helpers.getRandomNumberPassengers(passengersCount);
- const avaibleBack = helpers.getRandomNumberPassengers(passengersCount);
+ const available = helpers.getRandomNumberPassengers(passengersCount);
+ const availableBack = helpers.getRandomNumberPassengers(passengersCount);
 
  const price = mockData.price[helpers.getRandomElementArray(mockData.price)];
  const priceBack = mockData.price[helpers.getRandomElementArray(mockData.price)];
@@ -67,9 +67,9 @@ app.post('/getairs', (req, res)=>{
 
  
 
- const thereWay = {startTime, timeWay, flightNumber, price, avaible, getDay};
+ const thereWay = {startTime, timeWay, flightNumber, price, avalaible, getDay};
 
- const backWay = {startTimeBack, timeWayBack, flightNumberBack, priceBack, avaibleBack, getDayBack};
+ const backWay = {startTimeBack, timeWayBack, flightNumberBack, priceBack, availableBack, getDayBack};
 
  if(way==='one-way') {
   return res.json({from, to, way, thereWay});
