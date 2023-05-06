@@ -43,8 +43,30 @@ app.post('/getairs', (req, res)=>{
  const flightNumber = mockData.flightNumber+Math.floor(Math.random() * 9999);
  const flightNumberBack = mockData.flightNumber+Math.floor(Math.random() * 9999);
 
+ const direct = mockData.direct[helpers.getRandomElementArray(mockData.direct)];
+ const directBack = mockData.direct[helpers.getRandomElementArray(mockData.direct)];
+
+ let airportRedirect;
+ if(direct===true) {
+  airportRedirect = [[''], ['']];
+ }
+ if(direct===false) {
+  airportRedirect = mockData.airportRedirect[helpers.getRandomElementArray(mockData.airportRedirect)];
+  ;
+ }
+ let airportRedirectBack;
+ if(directBack===true) {
+  airportRedirectBack = [[''], ['']];
+ }
+ if(directBack===false) {
+  airportRedirectBack = mockData.airportRedirect[helpers.getRandomElementArray(mockData.airportRedirect)];
+  ;
+ }
+
  const startTime = mockData.startTime[helpers.getRandomElementArray(mockData.startTime)];
  const startTimeBack = mockData.startTime[helpers.getRandomElementArray(mockData.startTime)];
+
+ 
 
 
  
@@ -67,9 +89,9 @@ app.post('/getairs', (req, res)=>{
 
  
 
- const thereWay = {startTime, timeWay, flightNumber, price, available, getDay};
+ const thereWay = {startTime, timeWay, flightNumber, price, available, getDay, direct, airportRedirect};
 
- const backWay = {startTimeBack, timeWayBack, flightNumberBack, priceBack, availableBack, getDayBack};
+ const backWay = {startTimeBack, timeWayBack, flightNumberBack, priceBack, availableBack, getDayBack, directBack, airportRedirectBack};
 
  if(way==='one-way') {
   return res.json({from, to, way, thereWay});

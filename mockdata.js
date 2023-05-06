@@ -4,4 +4,6 @@ module.exports = {
   days: [[0,1,2,3,4,5,6], [0,2,4,6], [0,1,3,5]],
   price: [100, 150, 200, 230, 270, 290, 310, 340, 350, 380, 440, 500, 560, 600, 630],
   flightNumber: "KL‑",
+  direct: [true, true, true, true, false],
+  airportRedirect: [['FNJ', 'Pyongyang Sunan'], ['HGA', 'Madaarka Caalamiga']]
 }
