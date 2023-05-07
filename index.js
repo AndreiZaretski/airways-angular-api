@@ -4,16 +4,10 @@ const jsonServer = require('json-server');
 const auth = require('json-server-auth');
 const bodyParser = require('body-parser')
 
-
 const app = jsonServer.create();
 const router = jsonServer.router('db.json');
 const middlewares = jsonServer.defaults();
-
-
-
 const PORT = 3000;
-
-
 app.db = router.db;
 
 app.use(middlewares);
@@ -23,17 +17,25 @@ app.post('/getairs', (req, res)=>{
 
 //  let getDay;
 //  let getDayBack;
-
 //  const startDay = new Date(startDate).getDay();
 //  const endDay = new Date(endDate).getDay();
 
-//  const date = new Date(endDate)- new Date(startDate);
+const countDay =Math.ceil((new Date(endDate)- new Date(startDate))/(1000*60*60*24))+1;
 //  const arrDate = mockData.days[helpers.getRandomElementArray(mockData.days)];
 //  const arrDateBack = mockData.days[helpers.getRandomElementArray(mockData.days)];
 
  const available =()=> helpers.getRandomNumberPassengers(passengersCount);
  
- const price =()=> mockData.price[helpers.getRandomElementArray(mockData.price)];
+ const priceEur =()=> mockData.price[helpers.getRandomElementArray(mockData.price)];
+
+ const price = () => {
+  const price = priceEur();
+  const eur = price;
+  const usd = price*1.12;
+  const pln = price*4.66;
+  const rub = price*87.23;
+  return {eur, usd, pln, rub};
+ }
  
  const timeWay =()=>mockData.timeWay[helpers.getRandomElementArray(mockData.timeWay)];
  
@@ -71,21 +73,25 @@ app.post('/getairs', (req, res)=>{
 
  const wayFunc =  () =>{return {startTime: startTime(), timeWay: timeWay(), flightNumber:flightNumber(),  price: price(),  available: available(), isFlight: isFlight(), direct: direct()}};
 
- const thereWay = [ wayFunc(), wayFunc(), wayFunc(),wayFunc(),wayFunc(),wayFunc(),wayFunc(),wayFunc(),wayFunc(), wayFunc()]
+ const generateArray = ()=> {
+  const arr = Array(countDay);
+  arr.fill(null);
+  return arr.map((el)=> wayFunc());}
 
- const backWay = [ wayFunc(), wayFunc(), wayFunc(),wayFunc(),wayFunc(),wayFunc(),wayFunc(),wayFunc(),wayFunc(), wayFunc()];
+ const thereWay = generateArray();
+//  [ wayFunc(), wayFunc(), wayFunc(),wayFunc(),wayFunc(),wayFunc(),wayFunc(),wayFunc(),wayFunc(), wayFunc()]
+
+ const backWay = generateArray();
+//  [ wayFunc(), wayFunc(), wayFunc(),wayFunc(),wayFunc(),wayFunc(),wayFunc(),wayFunc(),wayFunc(), wayFunc()];
 
  if(way==='one-way') {
   return res.json({from, to, way, endDate, startDate, thereWay});
  }
 
-
 if(way==='round') {
   return res.json({from, to, way, endDate, startDate, thereWay, backWay});
 }
-
 });
-
 
 app.use(auth);
 app.use(router);
