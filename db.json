@@ -37,7 +37,15 @@
       "lastName": "qwer",
       "phoneNumber": 12322,
       "termsUse": true,
-      "id": 36
+      "id": 36,
+      "orders": [
+        {
+          "order": "1"
+        },
+        {
+          "order": "2"
+        }
+      ]
     },
     {
       "email": "test4@m.r",
@@ -53,5 +61,4 @@
       "id": 37
     }
   ]
-  
 }
