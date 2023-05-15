@@ -20,7 +20,7 @@ app.post('/getairs', (req, res)=>{
 //  const startDay = new Date(startDate).getDay();
 //  const endDay = new Date(endDate).getDay();
 
-const countDay =Math.ceil((new Date(endDate)- new Date(startDate))/(1000*60*60*24))+5;
+const countDay =Math.ceil((new Date(endDate)- new Date(startDate))/(1000*60*60*24))+7;
 //  const arrDate = mockData.days[helpers.getRandomElementArray(mockData.days)];
 //  const arrDateBack = mockData.days[helpers.getRandomElementArray(mockData.days)];
 
