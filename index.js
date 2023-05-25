@@ -11,7 +11,7 @@ const PORT = 3000;
 app.db = router.db;
 
 app.use(middlewares);
-app.use(bodyParser.json());
+app.use(bodyParser.json({ limit: '100mb' }));
 app.post('/getairs', (req, res)=>{
  const {from, to, way, endDate, startDate, passengersCount } = req.body; 
 
