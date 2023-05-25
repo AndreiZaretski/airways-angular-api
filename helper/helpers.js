@@ -5,7 +5,7 @@ class Helpers {
 
   getRandomNumberPassengers(min) {
     min = Math.ceil(min);
-    return Math.floor(Math.random() * (200 - min + 1)) + min;
+    return Math.abs(Math.floor(Math.random() * (200 - min + 1))) + min;
   }
 
   getRandomElementArray(array){ return Math.floor(Math.random() * array.length)}
