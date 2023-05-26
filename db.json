@@ -14,78 +14,30 @@
       "id": 34,
       "userSettings": {
         "currency": "EUR",
-        "dateFormat": "YYYY/DD/MM"
+        "dateFormat": "DD/MM/YYYY"
       },
       "orders": {
         "cartShoppings": [
           {
-            "orderId": "47f75ceb-bf0e-43f7-92ff-95a8c5e4c297",
+            "orderId": "ef603a0f-5ada-47b2-a32a-df1b810eb4af",
             "responseAir": {
-              "from": "WAW",
-              "to": "MSQ",
+              "from": "ATL",
+              "to": "ORD",
               "way": "round",
               "endDate": "Sat May 27 2023 00:00:00 GMT+0300",
-              "startDate": "Thu May 25 2023 00:00:00 GMT+0300",
+              "startDate": "Fri May 26 2023 00:00:00 GMT+0300",
               "thereWay": [
                 {
-                  "startTime": "06:48",
-                  "timeWay": 150,
-                  "flightNumber": "KL‑4392",
-                  "price": {
-                    "eur": 310,
-                    "usd": 347.20000000000005,
-                    "pln": 1444.6000000000001,
-                    "rub": 27041.300000000003
-                  },
-                  "available": 76,
-                  "isFlight": true,
-                  "direct": {
-                    "isDirect": true,
-                    "airportRedirect": [
-                      [
-                        ""
-                      ],
-                      [
-                        ""
-                      ]
-                    ]
-                  }
-                },
-                {
-                  "startTime": "22:00",
+                  "startTime": "10:20",
                   "timeWay": 75,
-                  "flightNumber": "KL‑878",
+                  "flightNumber": "KL‑3605",
                   "price": {
-                    "eur": 630,
-                    "usd": 705.6,
-                    "pln": 2935.8,
-                    "rub": 54954.9
+                    "eur": 230,
+                    "usd": 257.6,
+                    "pln": 1071.8,
+                    "rub": 20062.9
                   },
-                  "available": 103,
-                  "isFlight": true,
-                  "direct": {
-                    "isDirect": true,
-                    "airportRedirect": [
-                      [
-                        ""
-                      ],
-                      [
-                        ""
-                      ]
-                    ]
-                  }
-                },
-                {
-                  "startTime": "10:43",
-                  "timeWay": 75,
-                  "flightNumber": "KL‑1644",
-                  "price": {
-                    "eur": 630,
-                    "usd": 705.6,
-                    "pln": 2935.8,
-                    "rub": 54954.9
-                  },
-                  "available": 166,
+                  "available": 70,
                   "isFlight": true,
                   "direct": {
                     "isDirect": false,
@@ -96,16 +48,96 @@
                   }
                 },
                 {
-                  "startTime": "17:59",
+                  "startTime": "14:58",
                   "timeWay": 75,
-                  "flightNumber": "KL‑3370",
+                  "flightNumber": "KL‑9581",
+                  "price": {
+                    "eur": 340,
+                    "usd": 380.8,
+                    "pln": 1584.4,
+                    "rub": 29658.2
+                  },
+                  "available": 176,
+                  "isFlight": false,
+                  "direct": {
+                    "isDirect": false,
+                    "airportRedirect": [
+                      "HGA",
+                      "Madaarka Caalamiga"
+                    ]
+                  }
+                },
+                {
+                  "startTime": "10:20",
+                  "timeWay": 240,
+                  "flightNumber": "KL‑2378",
                   "price": {
                     "eur": 150,
                     "usd": 168.00000000000003,
                     "pln": 699,
                     "rub": 13084.5
                   },
-                  "available": 40,
+                  "available": 103,
+                  "isFlight": true,
+                  "direct": {
+                    "isDirect": false,
+                    "airportRedirect": [
+                      "HGA",
+                      "Madaarka Caalamiga"
+                    ]
+                  }
+                },
+                {
+                  "startTime": "02:59",
+                  "timeWay": 75,
+                  "flightNumber": "KL‑9819",
+                  "price": {
+                    "eur": 200,
+                    "usd": 224.00000000000003,
+                    "pln": 932,
+                    "rub": 17446
+                  },
+                  "available": 60,
+                  "isFlight": true,
+                  "direct": {
+                    "isDirect": false,
+                    "airportRedirect": [
+                      "FNJ",
+                      "Pyongyang Sunan"
+                    ]
+                  }
+                },
+                {
+                  "startTime": "04:48",
+                  "timeWay": 135,
+                  "flightNumber": "KL‑7580",
+                  "price": {
+                    "eur": 340,
+                    "usd": 380.8,
+                    "pln": 1584.4,
+                    "rub": 29658.2
+                  },
+                  "available": 120,
+                  "isFlight": true,
+                  "direct": {
+                    "isDirect": false,
+                    "airportRedirect": [
+                      "FNJ",
+                      "Pyongyang Sunan"
+                    ]
+                  }
+                },
+                {
+                  "startTime": "00:43",
+                  "timeWay": 120,
+                  "flightNumber": "KL‑8359",
+                  "price": {
+                    "eur": 340,
+                    "usd": 380.8,
+                    "pln": 1584.4,
+                    "rub": 29658.2
+                  },
+                  "available": 13,
                   "isFlight": true,
                   "direct": {
                     "isDirect": true,
@@ -120,16 +152,62 @@
                   }
                 },
                 {
-                  "startTime": "16:33",
-                  "timeWay": 330,
-                  "flightNumber": "KL‑771",
+                  "startTime": "19:52",
+                  "timeWay": 120,
+                  "flightNumber": "KL‑8901",
                   "price": {
-                    "eur": 380,
-                    "usd": 425.6,
-                    "pln": 1770.8,
-                    "rub": 33147.4
+                    "eur": 350,
+                    "usd": 392.00000000000006,
+                    "pln": 1631,
+                    "rub": 30530.5
                   },
-                  "available": 157,
+                  "available": 108,
+                  "isFlight": false,
+                  "direct": {
+                    "isDirect": true,
+                    "airportRedirect": [
+                      [
+                        ""
+                      ],
+                      [
+                        ""
+                      ]
+                    ]
+                  }
+                },
+                {
+                  "startTime": "02:05",
+                  "timeWay": 345,
+                  "flightNumber": "KL‑5102",
+                  "price": {
+                    "eur": 200,
+                    "usd": 224.00000000000003,
+                    "pln": 932,
+                    "rub": 17446
+                  },
+                  "available": 104,
+                  "isFlight": true,
+                  "direct": {
+                    "isDirect": false,
+                    "airportRedirect": [
+                      "FNJ",
+                      "Pyongyang Sunan"
+                    ]
+                  }
+                }
+              ],
+              "backWay": [
+                {
+                  "startTime": "17:59",
+                  "timeWay": 360,
+                  "flightNumber": "KL‑6207",
+                  "price": {
+                    "eur": 270,
+                    "usd": 302.40000000000003,
+                    "pln": 1258.2,
+                    "rub": 23552.100000000002
+                  },
+                  "available": 24,
                   "isFlight": true,
                   "direct": {
                     "isDirect": true,
@@ -144,16 +222,36 @@
                   }
                 },
                 {
-                  "startTime": "05:01",
-                  "timeWay": 90,
-                  "flightNumber": "KL‑7179",
+                  "startTime": "19:06",
+                  "timeWay": 75,
+                  "flightNumber": "KL‑2866",
                   "price": {
-                    "eur": 440,
-                    "usd": 492.80000000000007,
-                    "pln": 2050.4,
-                    "rub": 38381.200000000004
+                    "eur": 230,
+                    "usd": 257.6,
+                    "pln": 1071.8,
+                    "rub": 20062.9
                   },
-                  "available": 131,
+                  "available": 86,
+                  "isFlight": false,
+                  "direct": {
+                    "isDirect": false,
+                    "airportRedirect": [
+                      "HGA",
+                      "Madaarka Caalamiga"
+                    ]
+                  }
+                },
+                {
+                  "startTime": "04:48",
+                  "timeWay": 105,
+                  "flightNumber": "KL‑9687",
+                  "price": {
+                    "eur": 600,
+                    "usd": 672.0000000000001,
+                    "pln": 2796,
+                    "rub": 52338
+                  },
+                  "available": 16,
                   "isFlight": true,
                   "direct": {
                     "isDirect": true,
@@ -169,15 +267,15 @@
                 },
                 {
                   "startTime": "10:20",
-                  "timeWay": 90,
-                  "flightNumber": "KL‑9287",
+                  "timeWay": 330,
+                  "flightNumber": "KL‑2509",
                   "price": {
-                    "eur": 500,
-                    "usd": 560,
-                    "pln": 2330,
-                    "rub": 43615
+                    "eur": 100,
+                    "usd": 112.00000000000001,
+                    "pln": 466,
+                    "rub": 8723
                   },
-                  "available": 38,
+                  "available": 123,
                   "isFlight": false,
                   "direct": {
                     "isDirect": true,
@@ -192,67 +290,41 @@
                   }
                 },
                 {
-                  "startTime": "23:01",
-                  "timeWay": 150,
-                  "flightNumber": "KL‑7290",
+                  "startTime": "15:50",
+                  "timeWay": 270,
+                  "flightNumber": "KL‑9296",
+                  "price": {
+                    "eur": 310,
+                    "usd": 347.20000000000005,
+                    "pln": 1444.6000000000001,
+                    "rub": 27041.300000000003
+                  },
+                  "available": 25,
+                  "isFlight": true,
+                  "direct": {
+                    "isDirect": true,
+                    "airportRedirect": [
+                      [
+                        ""
+                      ],
+                      [
+                        ""
+                      ]
+                    ]
+                  }
+                },
+                {
+                  "startTime": "04:22",
+                  "timeWay": 315,
+                  "flightNumber": "KL‑3953",
                   "price": {
                     "eur": 380,
                     "usd": 425.6,
                     "pln": 1770.8,
                     "rub": 33147.4
                   },
-                  "available": 15,
-                  "isFlight": true,
-                  "direct": {
-                    "isDirect": true,
-                    "airportRedirect": [
-                      [
-                        ""
-                      ],
-                      [
-                        ""
-                      ]
-                    ]
-                  }
-                },
-                {
-                  "startTime": "14:58",
-                  "timeWay": 315,
-                  "flightNumber": "KL‑3263",
-                  "price": {
-                    "eur": 100,
-                    "usd": 112.00000000000001,
-                    "pln": 466,
-                    "rub": 8723
-                  },
-                  "available": 185,
+                  "available": 199,
                   "isFlight": false,
-                  "direct": {
-                    "isDirect": true,
-                    "airportRedirect": [
-                      [
-                        ""
-                      ],
-                      [
-                        ""
-                      ]
-                    ]
-                  }
-                }
-              ],
-              "backWay": [
-                {
-                  "startTime": "00:43",
-                  "timeWay": 190,
-                  "flightNumber": "KL‑5636",
-                  "price": {
-                    "eur": 100,
-                    "usd": 112.00000000000001,
-                    "pln": 466,
-                    "rub": 8723
-                  },
-                  "available": 197,
-                  "isFlight": true,
                   "direct": {
                     "isDirect": false,
                     "airportRedirect": [
@@ -262,88 +334,16 @@
                   }
                 },
                 {
-                  "startTime": "22:45",
-                  "timeWay": 270,
-                  "flightNumber": "KL‑2027",
+                  "startTime": "22:25",
+                  "timeWay": 360,
+                  "flightNumber": "KL‑2866",
                   "price": {
                     "eur": 380,
                     "usd": 425.6,
                     "pln": 1770.8,
                     "rub": 33147.4
                   },
-                  "available": 91,
-                  "isFlight": false,
-                  "direct": {
-                    "isDirect": true,
-                    "airportRedirect": [
-                      [
-                        ""
-                      ],
-                      [
-                        ""
-                      ]
-                    ]
-                  }
-                },
-                {
-                  "startTime": "17:08",
-                  "timeWay": 255,
-                  "flightNumber": "KL‑3560",
-                  "price": {
-                    "eur": 340,
-                    "usd": 380.8,
-                    "pln": 1584.4,
-                    "rub": 29658.2
-                  },
-                  "available": 41,
-                  "isFlight": false,
-                  "direct": {
-                    "isDirect": true,
-                    "airportRedirect": [
-                      [
-                        ""
-                      ],
-                      [
-                        ""
-                      ]
-                    ]
-                  }
-                },
-                {
-                  "startTime": "17:59",
-                  "timeWay": 300,
-                  "flightNumber": "KL‑728",
-                  "price": {
-                    "eur": 600,
-                    "usd": 672.0000000000001,
-                    "pln": 2796,
-                    "rub": 52338
-                  },
-                  "available": 159,
-                  "isFlight": false,
-                  "direct": {
-                    "isDirect": true,
-                    "airportRedirect": [
-                      [
-                        ""
-                      ],
-                      [
-                        ""
-                      ]
-                    ]
-                  }
-                },
-                {
-                  "startTime": "23:29",
-                  "timeWay": 255,
-                  "flightNumber": "KL‑9625",
-                  "price": {
-                    "eur": 150,
-                    "usd": 168.00000000000003,
-                    "pln": 699,
-                    "rub": 13084.5
-                  },
-                  "available": 108,
+                  "available": 45,
                   "isFlight": true,
                   "direct": {
                     "isDirect": true,
@@ -358,102 +358,29 @@
                   }
                 },
                 {
-                  "startTime": "02:05",
-                  "timeWay": 330,
-                  "flightNumber": "KL‑5266",
+                  "startTime": "16:55",
+                  "timeWay": 150,
+                  "flightNumber": "KL‑895",
                   "price": {
-                    "eur": 100,
-                    "usd": 112.00000000000001,
-                    "pln": 466,
-                    "rub": 8723
+                    "eur": 440,
+                    "usd": 492.80000000000007,
+                    "pln": 2050.4,
+                    "rub": 38381.200000000004
                   },
-                  "available": 40,
+                  "available": 78,
                   "isFlight": true,
                   "direct": {
                     "isDirect": false,
                     "airportRedirect": [
-                      "FNJ",
-                      "Pyongyang Sunan"
-                    ]
-                  }
-                },
-                {
-                  "startTime": "15:30",
-                  "timeWay": 240,
-                  "flightNumber": "KL‑3810",
-                  "price": {
-                    "eur": 200,
-                    "usd": 224.00000000000003,
-                    "pln": 932,
-                    "rub": 17446
-                  },
-                  "available": 147,
-                  "isFlight": true,
-                  "direct": {
-                    "isDirect": true,
-                    "airportRedirect": [
-                      [
-                        ""
-                      ],
-                      [
-                        ""
-                      ]
-                    ]
-                  }
-                },
-                {
-                  "startTime": "07:35",
-                  "timeWay": 270,
-                  "flightNumber": "KL‑8118",
-                  "price": {
-                    "eur": 560,
-                    "usd": 627.2,
-                    "pln": 2609.6,
-                    "rub": 48848.8
-                  },
-                  "available": 154,
-                  "isFlight": true,
-                  "direct": {
-                    "isDirect": true,
-                    "airportRedirect": [
-                      [
-                        ""
-                      ],
-                      [
-                        ""
-                      ]
-                    ]
-                  }
-                },
-                {
-                  "startTime": "04:15",
-                  "timeWay": 315,
-                  "flightNumber": "KL‑2969",
-                  "price": {
-                    "eur": 230,
-                    "usd": 257.6,
-                    "pln": 1071.8,
-                    "rub": 20062.9
-                  },
-                  "available": 14,
-                  "isFlight": false,
-                  "direct": {
-                    "isDirect": true,
-                    "airportRedirect": [
-                      [
-                        ""
-                      ],
-                      [
-                        ""
-                      ]
+                      "HGA",
+                      "Madaarka Caalamiga"
                     ]
                   }
                 }
               ]
             },
-            "chooseData": null,
             "indexThereWay": 3,
-            "indexBackWay": 5,
+            "indexBackWay": 4,
             "checkedThereWay": true,
             "checkedBackWay": true,
             "passengersCount": {
@@ -465,94 +392,27 @@
               "passengers": [
                 {
                   "type": "adult",
-                  "firstName": "qwert",
-                  "lastName": "qwert",
+                  "firstName": "g",
+                  "lastName": "t",
                   "gender": "male",
-                  "birthDay": "2023-04-30T21:00:00.000Z",
+                  "birthDay": "2023-05-03T21:00:00.000Z",
                   "specialAssistance": false,
                   "commonLuggage": false,
-                  "cabinLuggage": false,
+                  "cabinLuggage": true,
                   "seat": [
-                    "19E",
-                    "7B"
+                    "20D",
+                    "28B"
                   ]
                 }
               ],
               "contactsDetail": {
-                "countryCode": 213,
-                "phoneNumber": 22222222222,
-                "email": "r@m.r"
+                "countryCode": 93,
+                "phoneNumber": 55555555,
+                "email": "w@m.r"
               }
             }
           }
         ],
-        "flightsHistory": []
-      }
-    },
-    {
-      "email": "test2@m.r",
-      "password": "$2a$10$9LuAARAv9PANmuPgZFypD.95zI1riUfCy4PW46NSovF.oaDlDN2ku",
-      "birthDay": "11/09/1988",
-      "citizenship": "",
-      "countryCode": 93,
-      "firstName": "asw",
-      "gender": "male",
-      "lastName": "qwer",
-      "phoneNumber": 12322,
-      "termsUse": true,
-      "id": 35
-    },
-    {
-      "email": "test3@m.r",
-      "password": "$2a$10$h941MNe8wENjKeR7XR.4xeq9YoL15cd0cPz.muy/NfmUJ/JNKXba2",
-      "birthDay": "11/09/1988",
-      "citizenship": "",
-      "countryCode": 93,
-      "firstName": "asw",
-      "gender": "male",
-      "lastName": "qwer",
-      "phoneNumber": 12322,
-      "termsUse": true,
-      "id": 36,
-      "orders": [
-        {
-          "order": "1"
-        },
-        {
-          "order": "2"
-        },
-        {
-          "order": "2"
-        }
-      ]
-    },
-    {
-      "email": "test4@m.r",
-      "password": "$2a$10$vBnPHNymtNtDBYJcleZbV.CpuhR9gn9IhJuE0.9T4gbjxpySFpX2m",
-      "firstName": "A",
-      "lastName": "A",
-      "birthDay": "2000-12-31T22:00:00.000Z",
-      "gender": "male",
-      "countryCode": 93,
-      "phoneNumber": 111111,
-      "citizenship": "",
-      "termsUse": true,
-      "id": 37
-    },
-    {
-      "email": "r1@m.r",
-      "password": "$2a$10$K.v0KsF8sSr3y1h5zspxZ.w0SlLpqeQZp0osdYheR7v8kaWWKKBsa",
-      "firstName": "a",
-      "lastName": "b",
-      "birthDay": "2023-04-30T21:00:00.000Z",
-      "gender": "male",
-      "countryCode": 93,
-      "phoneNumber": 2222222,
-      "citizenship": "Afghanistan",
-      "termsUse": true,
-      "id": 38,
-      "orders": {
-        "cartShoppings": [],
         "flightsHistory": []
       }
     }

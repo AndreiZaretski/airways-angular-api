@@ -12,6 +12,7 @@ app.db = router.db;
 
 app.use(middlewares);
 app.use(bodyParser.json({ limit: '100mb' }));
+app.use(bodyParser.urlencoded({ extended: true, limit: '100mb' }));
 app.post('/getairs', (req, res)=>{
  const {from, to, way, endDate, startDate, passengersCount } = req.body; 
 
